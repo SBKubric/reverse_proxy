@@ -2,7 +2,7 @@
 
 ## What is this?
 
-A global reverse proxy that enables HTTPS for local docker projects
+A global reverse proxy configuration that enables HTTPS for local docker projects
 
 ## How to install
 
