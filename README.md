@@ -17,4 +17,7 @@ systemctl --user enable reverse_proxy.service
 mkcert will you need
 Put generated certs into ~/ssl
 
+### Set domains
+Add domains into /etc/hosts
+
 Voila!
