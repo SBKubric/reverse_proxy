@@ -1,0 +1,14 @@
+[Unit]
+Description=Traefik Autostart
+After=docker.service
+
+[Service]
+Type=oneshot
+ExecStart=/home/sbkubric/reverse_proxy/autostart.sh
+WorkingDirectory=/home/sbkubric/reverse_proxy
+StandardError=/home/sbkubric/reverse_proxy/traefik.autostart.log
+StandardOutput=/home/sbkubric/reverse_proxy/traefik.autostart.log
+
+[Install]
+WantedBy=default.target
+
